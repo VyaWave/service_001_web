@@ -25,7 +25,7 @@ export const Login: React.FC = () => {
   return (
     <div className="h-screen flex flex-col bg-gray-50 h-screen relative overflow-hidden items-center justify-center">
       <Background />
-      <Card className="w-[350px] md:w-[420px]" style={{ zIndex: 2 }}>
+      <Card className="w-[350px] md:w-[420px] h-auto" style={{ zIndex: 2 }}>
         <CardHeader>
           <CardTitle>欢迎回来！</CardTitle>
           <CardDescription>登录以继续操作</CardDescription>
