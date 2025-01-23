@@ -46,8 +46,7 @@ export const Login: React.FC = () => {
         </CardContent>
         <CardFooter className="flex items-center justify-center">
           <Button className='w-[320px] md:w-[400px]' onClick={handleLogin}>
-            {loading ? <Loader2 className="animate-spin" /> : null}
-            {loading ? 'Loading...' : 'Login'}
+            {loading ? <><Loader2 className="animate-spin" />Loading...</> : <>Login</>}
           </Button>
         </CardFooter>
       </Card>
