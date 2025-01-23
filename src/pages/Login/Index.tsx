@@ -35,11 +35,11 @@ export const Login: React.FC = () => {
             <div className="grid w-full items-center gap-4">
               <div className="flex flex-col space-y-1.5">
                 <Label htmlFor="name">邮箱</Label>
-                <Input id="name" placeholder="Name of your project" />
+                <Input id="name" placeholder="input your email" />
               </div>
               <div className="flex flex-col space-y-1.5">
                 <Label htmlFor="name">密码</Label>
-                <Input type='password' id="name" placeholder="Name of your project" />
+                <Input type='password' id="name" placeholder="input your password" />
               </div>
             </div>
           </form>
